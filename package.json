@@ -1,0 +1,31 @@
+{
+  "name": "Gaga09XMD",
+  "version": "1.1.0",
+  "description": "Gaga09 XMD WhatsApp Multi-bot with downloader integrations and Render-ready web UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2-start": "pm2 start ecosystem.config.js",
+    "web": "node web/server.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "moment": "^2.29.4",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.18.2",
+    "youtube-dl-exec": "^1.1.9",
+    "ffmpeg-static": "^5.1.0",
+    "form-data": "^4.0.0",
+    "socket.io": "^4.7.1",
+    "pino": "^8.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Vincent Ganiza (Lil Gaga Traxx09)",
+  "license": "MIT"
+}
